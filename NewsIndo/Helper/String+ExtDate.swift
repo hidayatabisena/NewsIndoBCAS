@@ -13,6 +13,7 @@ extension String {
         let dateFormatter = DateFormatter()
         dateFormatter.locale = Locale(identifier: "id_ID")
         // 2024-04-23T01:29:28.000Z mirip dengan yyyy-MM-dd'T'HH:mm:ssZ
+        // 2023-12-20T11:53:18.000Z 2024-04-03T15:25:54.000Z 2023-12-20T15:56:09.000Z
         dateFormatter.dateFormat = "yyyy-MM-dd'T'HH:mm:ss.SSSZ"
         
         // butuh string dari Date

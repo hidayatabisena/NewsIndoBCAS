@@ -18,6 +18,9 @@
 		538D2CDC2BD755D500ABAB40 /* APIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 538D2CDB2BD755D500ABAB40 /* APIService.swift */; };
 		538D2CDF2BD75A9400ABAB40 /* NewsVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 538D2CDE2BD75A9400ABAB40 /* NewsVM.swift */; };
 		538D2CE22BD7626200ABAB40 /* String+ExtDate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 538D2CE12BD7626200ABAB40 /* String+ExtDate.swift */; };
+		538D2CE92BD7959400ABAB40 /* Zetizen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 538D2CE82BD7959400ABAB40 /* Zetizen.swift */; };
+		538D2CEB2BD7963100ABAB40 /* ZetizenServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = 538D2CEA2BD7963100ABAB40 /* ZetizenServices.swift */; };
+		538D2CED2BD796BF00ABAB40 /* ZetizenVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 538D2CEC2BD796BF00ABAB40 /* ZetizenVM.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +34,9 @@
 		538D2CDB2BD755D500ABAB40 /* APIService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIService.swift; sourceTree = "<group>"; };
 		538D2CDE2BD75A9400ABAB40 /* NewsVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsVM.swift; sourceTree = "<group>"; };
 		538D2CE12BD7626200ABAB40 /* String+ExtDate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+ExtDate.swift"; sourceTree = "<group>"; };
+		538D2CE82BD7959400ABAB40 /* Zetizen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Zetizen.swift; sourceTree = "<group>"; };
+		538D2CEA2BD7963100ABAB40 /* ZetizenServices.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZetizenServices.swift; sourceTree = "<group>"; };
+		538D2CEC2BD796BF00ABAB40 /* ZetizenVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZetizenVM.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +71,7 @@
 		538D2CBE2BD74ABC00ABAB40 /* NewsIndo */ = {
 			isa = PBXGroup;
 			children = (
+				538D2CE32BD783F900ABAB40 /* Zetizen */,
 				538D2CE02BD7621E00ABAB40 /* Helper */,
 				538D2CDD2BD75A7B00ABAB40 /* ViewModel */,
 				538D2CD82BD7552100ABAB40 /* Services */,
@@ -140,6 +147,48 @@
 				538D2CE12BD7626200ABAB40 /* String+ExtDate.swift */,
 			);
 			path = Helper;
+			sourceTree = "<group>";
+		};
+		538D2CE32BD783F900ABAB40 /* Zetizen */ = {
+			isa = PBXGroup;
+			children = (
+				538D2CE72BD7845A00ABAB40 /* View */,
+				538D2CE62BD7845200ABAB40 /* ViewModel */,
+				538D2CE52BD7844C00ABAB40 /* Services */,
+				538D2CE42BD7844600ABAB40 /* Model */,
+			);
+			path = Zetizen;
+			sourceTree = "<group>";
+		};
+		538D2CE42BD7844600ABAB40 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				538D2CE82BD7959400ABAB40 /* Zetizen.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		538D2CE52BD7844C00ABAB40 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				538D2CEA2BD7963100ABAB40 /* ZetizenServices.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		538D2CE62BD7845200ABAB40 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				538D2CEC2BD796BF00ABAB40 /* ZetizenVM.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		538D2CE72BD7845A00ABAB40 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -220,11 +269,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				538D2CE22BD7626200ABAB40 /* String+ExtDate.swift in Sources */,
+				538D2CE92BD7959400ABAB40 /* Zetizen.swift in Sources */,
 				538D2CD22BD7504800ABAB40 /* News.swift in Sources */,
 				538D2CDC2BD755D500ABAB40 /* APIService.swift in Sources */,
 				538D2CC22BD74ABD00ABAB40 /* ContentView.swift in Sources */,
+				538D2CEB2BD7963100ABAB40 /* ZetizenServices.swift in Sources */,
 				538D2CC02BD74ABD00ABAB40 /* NewsIndoApp.swift in Sources */,
 				538D2CDA2BD7554500ABAB40 /* Constant.swift in Sources */,
+				538D2CED2BD796BF00ABAB40 /* ZetizenVM.swift in Sources */,
 				538D2CDF2BD75A9400ABAB40 /* NewsVM.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
